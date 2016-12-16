@@ -7,8 +7,7 @@
 - index.html：默认的主页
 
 在_layouts目录下创建一个default.html，在其中输入如下内容，注意：文件本身要以UTF-8 without BOM的格式保存，以防止各种编码问题，建议使用notepad++或者VIM编辑
-`
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
 　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -17,8 +16,7 @@
 <body>
 　
 </body>
-</html>
-`
+</html>`
 
 编辑index.html
 `
@@ -26,6 +24,5 @@
 layout: default
 title: test title
 ---
-<p>Hello world!</p>
-`
+<p>Hello world!</p>`
 
